@@ -83,8 +83,7 @@ function DB_Accordion() {
                           <div className="edu-body">
                             <h4>Oriental University</h4>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmo
+                            Graduated from Computer Science Stream &  Successfully Completed Microsoft Certification Program.
                             </p>
                           </div>
                         </div>
@@ -95,8 +94,7 @@ function DB_Accordion() {
                           <div className="edu-body">
                             <h4>NIELIT Calicut</h4>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmo
+                              Diploma in Data Science with Python, R language, Machine Learning, Deep Learning, NLP Skills.
                             </p>
                           </div>
                         </div>
@@ -107,8 +105,7 @@ function DB_Accordion() {
                           <div className="edu-body">
                             <h4>IIIT Bangalore</h4>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmo
+                              Pursuing Executive Post Graduate Program with Java, Spring, Hibernate, React, MongoDB, Data Structure, Software Engineering, JavaScript, Html5, Css3, AWS, Dyamo DB, Docker technologies.
                             </p>
                           </div>
                         </div>

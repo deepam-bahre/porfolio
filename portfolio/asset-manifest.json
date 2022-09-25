@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4d631c4.css",
+    "main.js": "/static/js/main.d5219acb.js",
+    "static/js/787.8c1b26e9.chunk.js": "/static/js/787.8c1b26e9.chunk.js",
+    "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/newsletter.png": "/static/media/newsletter.7be29dc7364588138df3.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/blackBoard.png": "/static/media/blackBoard.b8c3996cd47be4815570.png",
+    "static/media/header4.png": "/static/media/header4.61260ebbde9b1595a213.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/pic_frame6.png": "/static/media/pic_frame6.f9b5893bf0a3ebbddd32.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/Deepam_Bahre_Resume.pdf": "/static/media/Deepam_Bahre_Resume.05d7b2a2a6f74041fa70.pdf",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/oriental-university.png": "/static/media/oriental-university.c44b058e6df2881a6da0.png",
+    "index.html": "/index.html",
+    "main.c4d631c4.css.map": "/static/css/main.c4d631c4.css.map",
+    "main.d5219acb.js.map": "/static/js/main.d5219acb.js.map",
+    "787.8c1b26e9.chunk.js.map": "/static/js/787.8c1b26e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d631c4.css",
+    "static/js/main.d5219acb.js"
+  ]
+}

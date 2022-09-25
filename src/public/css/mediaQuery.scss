@@ -1,7 +1,7 @@
 
 $base-color_white: #fcf6f5ff;
-$base-color_blue: #4353ff;
-
+$base-color_blue: rgb(33, 150, 243);
+$base-color_black: #292F36;
 $very-small-mobile: 320px;
 $small-mobile: 360px;
 $normal-mobile: 361px;
@@ -68,6 +68,18 @@ $desktop: 1200px;
         margin: 0px auto 30px;
       }
     }
+    /*-----------Timeline-------------*/
+    .timeline{
+      .timeline-body{
+        .vertical-timeline{
+          .timeline-right{
+            .vertical-timeline-element-date{
+              color: $base-color_black;
+             }
+          }
+        }
+      }
+    }
       /*-----------Contact-------------*/
       .contact{
         .contact-map{
@@ -109,6 +121,19 @@ $desktop: 1200px;
         margin: 0px auto 30px;
       }
     }
+    /*-----------Timeline-------------*/
+    .timeline{
+      .timeline-body{
+        .vertical-timeline{
+          .timeline-right{
+            .vertical-timeline-element-date{
+              color: $base-color_black;
+             }
+          }
+        }
+      }
+    }
+
     /*-----------Contact-------------*/
     .contact{
       .contact-map{
@@ -154,6 +179,19 @@ $desktop: 1200px;
         margin: 0px auto 60px;
       }
     }
+    /*-----------Timeline-------------*/
+    .timeline{
+      .timeline-body{
+        .vertical-timeline{
+          .timeline-right{
+            .vertical-timeline-element-date{
+              color: $base-color_white;
+             }
+          }
+        }
+      }
+    }
+
     /*-----------Contact-------------*/
     .contact{
       .contact-map{
@@ -199,6 +237,19 @@ $desktop: 1200px;
         margin: 0px auto 90px;
       }
     }
+    /*-----------Timeline-------------*/
+    .timeline{
+      .timeline-body{
+        .vertical-timeline{
+          .timeline-right{
+            .vertical-timeline-element-date{
+              color: $base-color_white;
+             }
+          }
+        }
+      }
+    }
+
     /*-----------Contact-------------*/
     .contact{
       .contact-map{
@@ -244,6 +295,19 @@ $desktop: 1200px;
         margin: 0px auto 90px;
       }
     }
+ /*-----------Timeline-------------*/
+    .timeline{
+      .timeline-body{
+        .vertical-timeline{
+          .timeline-right{
+            .vertical-timeline-element-date{
+              color: $base-color_white;
+             }
+          }
+        }
+      }
+    }
+
     /*-----------Contact-------------*/
     .contact{
       .contact-map{

@@ -1,6 +1,7 @@
-$base-color_blue: #4353ff;
+$base-color_blue: rgb(33, 150, 243);
+$base-color_darkblue: #4353ff;
 $base-color_green: #2bae66ff;
-$base-color_white: #fcf6f5ff;
+$base-color_white: #FEFEFE;
 $base-color_golden: #f8d210;
 $base-color_black: #292F36;
 // Social media colors
@@ -10,9 +11,10 @@ $base-color_linkedin:  #0a66c2;
 $base-color_blogpost: #f57d00;
 $base-color_flickr: #f40083;
 $base-color_skype: #00aff0;
+$base-color_lightGray: #F2F3F4;
 
 @mixin db-btn {
-  $base-color_blue: #4353ff;
+  $base-color_blue: rgb(33, 150, 243);
   $base-color_white: #fcf6f5ff;
   font-weight: 400;
   line-height: 1.5;
@@ -273,6 +275,9 @@ border-radius: 8px;
                   height: 12px;
                 }
               }
+              .resume {
+                margin-top: 25px;
+            }
             }
           }
         }
@@ -393,6 +398,163 @@ border-radius: 8px;
 }
 
 /*---------//About-End//----------*/
+
+/*---------Timeline-Start----------*/
+.timeline{
+  background-color: $base-color_black;
+  padding-top: 30px;
+
+  .timeline-heading{
+ h3{
+  color: $base-color_blue;
+ }
+ .timeline-border{
+  height: 1px;
+  border-top: 2px solid $base-color_black;
+  // margin: 0px auto 90px;
+  width: 25%;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+ }
+ .timeline-border::before{
+  content: '';
+height: 6px;
+left: 50%;
+margin-left: -25px;
+position: absolute;
+top: -4px;
+width: 50px;
+background-color: $base-color_golden;
+border-radius: 8px;
+}
+
+  }
+  .timeline-body{
+    .vertical-timeline{
+      .vertical-timeline-element--work{
+         .vertical-timeline-element-icon{
+
+         }
+         .vertical-timeline-element-content{
+          .vertical-timeline-element-content-arrow{}
+          .vertical-timeline-element-date{
+            //color:$base-color_black;
+          }
+          h3{
+            text-align: left;
+          }
+          h4{
+            text-align: left;
+          }
+          p{
+            text-align: left;
+          }
+         }
+      }
+      .vertical-timeline-element--education{
+        .vertical-timeline-element-icon{
+          
+         }
+         .vertical-timeline-element-content{
+          .vertical-timeline-element-content-arrow{}
+          .vertical-timeline-element-date{
+            //color:$base-color_black;
+          }
+          h3{
+            text-align: left;
+          }
+          h4{
+            text-align: left;
+          }
+          p{
+            text-align: left;
+          }
+         }
+      }
+      .timeline-left{
+        
+        .vertical-timeline-element-content, .vertical-timeline-element-icon{
+          background-color: $base-color_blue;
+          color: $base-color_white;
+        }
+       .vertical-timeline-element-date{
+        text-align: left;
+        color: $base-color_white;
+       }
+      }
+      .timeline-right{
+        text-align: right;
+        .vertical-timeline-element-icon{
+          background-color: $base-color_white;
+          color: $base-color_black;
+          box-shadow: 0 0 0 4px rgb(33 150 243), inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+        }
+        .vertical-timeline-element-date{
+          text-align: left;
+          //color: $base-color_white;
+         }
+      }
+    }
+    .vertical-timeline::before{
+
+    }
+    .vertical-timeline::after{
+      
+    }
+  }
+}
+
+/*---------//Timeline-End//----------*/
+
+/*---------Newsletter-Start----------*/
+.newsletter{
+background-image: url("../images/newsletter.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+.newsletter-form{
+  position: relative;
+    top: 60px;
+  span{
+    display: flex;
+    .newsletter-input{
+      border-top-left-radius: 36px;
+      border-bottom-left-radius: 36px;
+      border-top-right-radius: 36px;
+      border-bottom-right-radius: 36px;
+      height: 50px;
+      position: relative;
+      top: 8px;
+    }
+    .db-btn{
+      
+
+      background-color: rgb(33, 150, 243);
+      color: #FEFEFE;
+      margin: 5px 0px 5px 10px;
+      font-weight: 400;
+      line-height: 0;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      user-select: none;
+      border: 3px solid;
+      padding: 10px 6px;
+      min-width: 6%;
+      font-size: 1rem;
+      border-radius: 50%;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      height: 50px;
+    }
+  }
+
+}
+}
+/*---------//Newsletter-End//----------*/
+
 
 /*---------Contact-Start----------*/
 .contact{

@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import header_img from '../public/images/header4.png'; 
 import DB_img from '../public/images/pic_frame6.png'; 
+import news_btn_img from '../public/images/send.png';
 import DBAccordion from '../component/Accordion';
 import {address, phone, email, arrow_up} from '../component/icon.jsx';
+import Timeline from "../component/Timeline.jsx";
 import {
    Row,
    Image,
@@ -60,7 +62,40 @@ import {
                </Row>
             </Container>
             </section>
-            <section className='contact space-from-top' id="contact">
+            <section className='timeline space-from-top' id='timeline'>
+               <Container>
+                  <Row>
+                     <div className="col-md-12 col-sm-12">
+                        <div className='timeline-heading'>
+                        <h3>My <span>Journey</span></h3>
+                        <div className="timeline-border"></div>
+                        </div>
+                        <div className='timeline-body'>
+                           <Timeline />
+                        </div>
+                        </div>
+                     </Row>
+               </Container>
+            </section>
+
+            <section className='newsletter'>
+               <Container>
+                  <Row style={{justifyContent:"center"}}>
+                     <div className="col-md-8 col-md-offset-2 col-sm-12">
+                        <div className='newsletter-form'>
+                        <span><Form.Control type="text" className='newsletter-input' placeholder="Enter Your Query" /> 
+                        <Button className='btn db-btn' type="submit">
+                        <Image src={news_btn_img} fluid className="header-img"/>
+                        </Button>
+                       </span>
+                        </div>
+                     </div>
+                  </Row>
+               </Container>
+            </section>
+
+
+            <section className='contact' id="contact">
                <Container>
                   <Row>
                      <div className="col-md-12 col-sm-12">

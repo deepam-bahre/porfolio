@@ -38,7 +38,16 @@ function Progress() {
                             progress-bar-striped 
                             progress-bar-animated" 
                             style={{width:'78%'}}>&nbsp;</div>
-            </div>     
+            
+            <br></br>
+            <h5><span className="skill-text-left">Laravel</span><span className="skill-text-right">70%</span></h5>
+            <div className="progress-bar bg-warning 
+                            progress-bar-striped 
+                            progress-bar-animated" 
+                            style={{width:'70%'}}>&nbsp;</div>
+
+            </div> 
+                
         </>
     )
 }
